@@ -9,7 +9,7 @@ for port in range(1, 101):
     if result == 0:
         print(f"print {port} is OPEN")
     else:
-        print(f"Port {port} closed")
+        print(f"Port {port} is closed")
     s.close()
 
 
